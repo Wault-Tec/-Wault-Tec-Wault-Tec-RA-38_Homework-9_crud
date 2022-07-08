@@ -1,0 +1,20 @@
+.PostView__footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.PostView__btn {
+  height: 25px;
+  padding: 5px 10px;
+  background-color: #4469ae;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  border-radius: 3px;
+  margin: 10px 5px;
+  margin-top: 15px;
+}
+
+.remove-btn {
+  background-color: rgb(182, 65, 65);
+}

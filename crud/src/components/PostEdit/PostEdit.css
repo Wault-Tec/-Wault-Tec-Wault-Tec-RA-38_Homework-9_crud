@@ -1,0 +1,58 @@
+.PostEdit__header {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.PostEdit__header span {
+  font-weight: 600;
+}
+
+.PostEdit_options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(96, 103, 111, 0.3);
+}
+
+.options-item {
+  width: 200px;
+  padding: 5px 10px;
+  background-color: rgba(96, 103, 111,0.1);
+  border-radius: 10px;
+  margin: 5px 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.options-item:hover {
+  cursor: pointer;
+}
+
+.Edit__btn{
+  height: 25px;
+  padding: 5px 10px;
+  background-color: #4469ae;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  border-radius: 3px;
+  align-self: flex-end;
+}
+
+.postEditTextarea {
+  padding: 5px;
+  resize: none;
+  height: auto;
+  width: auto;
+  border: 1px solid rgba(96, 103, 111,0.5);
+  font-size: 1rem;
+  line-height: 1.15rem;
+  margin-top: 10px;
+}
+
+.postEditTextarea:focus {
+  outline: none;
+  border: 1px solid #1a1919;
+}

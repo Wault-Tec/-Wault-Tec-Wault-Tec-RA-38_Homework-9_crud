@@ -1,0 +1,20 @@
+.page-header {
+  height: 40px;
+  width: auto;
+  display: flex;
+  justify-content: end;
+  background-color: #ffffff;
+  border-radius: 5px;
+  align-items: center;
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+
+.page-header__btn {
+  height: 25px;
+  background-color: #4469ae;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 3px;
+}

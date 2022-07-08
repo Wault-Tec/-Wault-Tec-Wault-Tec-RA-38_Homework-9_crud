@@ -1,0 +1,80 @@
+.postWrapper {
+  box-sizing: border-box;
+  border-radius: 5px;
+  min-height: 150px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.avatarMini {
+  height: 40px;
+  width: 40px;
+}
+
+.userInfo {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.userName {
+  color: #4469ae;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.userRank {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #60676f;
+}
+
+.postTime {
+  font-weight: 400;
+}
+
+.inputWrapper {
+  height: 50px;
+  display: flex;
+  padding: 10px;
+  padding-top: 5px;
+  padding-left: 0;
+  align-items: center;
+}
+
+.postInput {
+  width: 100%;
+  height: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #60676f;
+  padding: 3px;
+  padding-left: 10px;
+}
+
+.postInput:focus {
+  outline: none;
+  border: 1px solid #1a1919;
+}
+
+.postContent {
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgba(96, 103, 111, 0.3);
+  padding-bottom: 15px;
+}
